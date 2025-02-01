@@ -1,0 +1,125 @@
+html,
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+#navigation {
+    background: linear-gradient(
+        to right,
+        rgba(180, 113, 42, 0.83),
+        rgba(17, 41, 129, 0.83)
+    );
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    text-align: center;
+    margin: 0 auto;
+    height: 60px;
+    width: 60%;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    z-index: 900;
+}
+
+#search {
+    background-color: rgb(236, 229, 229);
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transition: all 0.3s ease;
+    padding-left: 30px;
+    margin: 0 auto;
+    text-align: left;
+    height: 25px;
+    width: 40%;
+    border: none;
+    z-index: 1000;
+}
+
+#search:hover {
+    background-color: white;
+    height: 35px;
+    width: 42%;
+}
+
+#search:focus {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.516);
+    background-color: white;
+    outline: none;
+    height: 35px;
+    width: 42%;
+}
+
+#home {
+    text-align: left;
+    width: 60px;
+    color: white;
+    position: fixed;
+}
+
+#home:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.516);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#AboutUs {
+    margin-left: 140px;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+}
+
+#AboutUs:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.516);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.516);
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+    object-fit: contain;
+}
+
+img:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+img:active {
+    width: 800px;
+    height: 800px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 25px;
+    position: fixed;
+    top: -15px;
+    left: 22%;
+}
+
+table {
+    width: 40%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
