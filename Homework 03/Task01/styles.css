@@ -1,0 +1,28 @@
+p {
+    color: rgb(237, 141, 141);
+    background-color: rgb(64, 16, 98);
+    border-radius: 50px;
+    border: 5px solid;
+    border-color: rgb(175, 8, 184);
+    padding: 10px;
+    margin: 20px auto;
+    width: 350px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Tahoma, arial, sans-serif;
+    text-align: center;
+}
+
+p:hover {
+    color: rgb(64, 16, 98);
+    background-color: rgb(237, 141, 141);
+    border: 5px solid;
+    border-color: rgb(162, 33, 45);
+}
+
+p:active {
+    color: rgb(103, 26, 5);
+    background-color: rgb(216, 77, 77);
+    border: 5px solid;
+    border-color: rgb(136, 31, 31);
+}

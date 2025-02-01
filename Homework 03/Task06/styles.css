@@ -1,0 +1,44 @@
+p {
+    width: 100px;
+    height: 100px;
+}
+
+div {
+    background-color: rgb(9, 171, 171);
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+}
+
+p:nth-child(1) {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+    left: 150px;
+    top: 175px;
+}
+p:nth-child(2) {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+    left: 350px;
+    top: 175px;
+}
+p:nth-child(3) {
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 270px;
+    top: 280px;
+}
+
+p:nth-child(4) {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    left: 225px;
+    top: 390px;
+}
