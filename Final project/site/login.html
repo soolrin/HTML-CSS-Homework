@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Вход / Регистрация</title>
+        <link rel="stylesheet" href="login_styles.css" />
+        <link rel="icon" href="../img_site/site_icon.png" type="image/png" />
+    </head>
+    <body>
+        <div class="container">
+            <div id="login"></div>
+            <div id="signup"></div>
+
+            <div class="form-shell">
+                <form class="form" id="login-form">
+                    <h2 class="title">Вход</h2>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Пароль" required />
+                    </div>
+                    <button type="submit" class="btn">Войти</button>
+                    <div class="switch-form">
+                        Нет аккаунта? <a href="#signup">Зарегистрируйтесь</a>
+                    </div>
+                </form>
+
+                <form class="form" id="signup-form">
+                    <h2 class="title">Регистрация</h2>
+                    <div class="input-group">
+                        <input type="text" placeholder="Имя" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Пароль" required />
+                    </div>
+                    <button type="submit" class="btn">Создать аккаунт</button>
+                    <div class="switch-form">
+                        Уже есть аккаунт? <a href="#login">Войти</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="overlay">
+                <h2 class="overlay-title">Добро пожаловать!</h2>
+                <p class="overlay-text">Войдите в свой аккаунт Dragon Shop</p>
+            </div>
+        </div>
+    </body>
+</html>
